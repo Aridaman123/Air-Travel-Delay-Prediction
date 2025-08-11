@@ -10,35 +10,12 @@ Airline delays cost passengers time and airlines money. This project leverages h
 - Identify the top operational drivers of delay  
 - Recommend data-driven interventions to reduce future delays  
 
-## ⚙️ Installation
 
-```bash
-git clone https://github.com/payalkanyan/AirTravelDelayPred
-cd air-travel-delay-analysis
-python3 -m venv .venv
-source .venv/bin/activate      # Linux/macOS
-.venv\Scripts\activate         # Windows
-
-pip install -r requirements.txt
-```
 
 **Key libraries:** `pandas`, `numpy`, `scikit-learn`, `xgboost`, `lightgbm`, `catboost`, `matplotlib`, `seaborn`, `shap`
 
-## ▶️ Usage
 
-1. Download `Airline_Delay_Cause.csv` into the project root.
-2. Launch the notebook:
-
-   ```bash
-   jupyter lab
-   ```
-
-   or
-
-   ```bash
-   jupyter notebook
-   ```
-3. Run all cells in `AirTravelPred.ipynb` in order. Sections include:
+   ``` Run all cells in `AirTravelPred.ipynb` in order. Sections include:
 
    * Data Loading & Cleaning
    * Exploratory Data Analysis
